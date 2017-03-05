@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+li{
+	list-style: none;
+}
+.header{
+	width: 100%;
+	background-color: #f5f5f5;
+	font: 12px "微软雅黑";
+}
+
+.header nav{
+	width: 1100px;
+	margin: 0 auto;
+	height: 35px;
+	background-color: #f5f5f5;
+}
+
+.nav-pic{
+	margin-left: 20px;
+	font-weight: bold;
+	font-size: 30px;
+	color: #F82C45;
+	line-height: 35px;
+}
+
+.nav-info{
+	float: right;
+}
+
+.nav-info li{
+	display: inline;
+	margin-right: 20px;
+}
+
+.nav-info li a{
+	color: #000;
+	line-height: 35px;
+}
+
+.nav-info li a:hover{
+	color: #FE0202;
+}
